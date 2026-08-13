@@ -1,0 +1,10 @@
+{
+  "description": "This platform provides AI-driven heatwave predictions and alerts for disaster management authorities, agricultural agencies, and citizens, enhancing proactive responses to climate challenges.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
