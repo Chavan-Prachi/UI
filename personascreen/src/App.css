@@ -1,0 +1,22 @@
+.app { max-width: 1200px; margin: 0 auto; padding: 32px 20px 60px; }
+
+.app-header {
+  display: flex; align-items: center; gap: 16px;
+  background: linear-gradient(135deg, #12263a, #1d3a57);
+  color: #fff; border-radius: 18px; padding: 20px 26px;
+  margin-bottom: 44px;
+  box-shadow: 0 10px 30px rgba(18, 38, 58, 0.25);
+}
+.app-logo { font-size: 34px; }
+.app-header h1 { font-size: 22px; }
+.app-header p { font-size: 13px; opacity: 0.75; margin-top: 4px; }
+
+.persona-block { margin-bottom: 56px; }
+.persona-heading {
+  font-size: 20px; margin: 0 0 14px; color: #12263a;
+  display: flex; align-items: center; gap: 10px;
+}
+.persona-heading::before {
+  content: ""; width: 6px; height: 22px; border-radius: 3px;
+  background: var(--accent);
+}
